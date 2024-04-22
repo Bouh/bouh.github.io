@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)https://witly.fr/portfolio/print.php -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		
+		<title>Aurélien Vivet</title>
+		<link rel="stylesheet" media="screen" href="./print_files/style.css">
+		<script src="./print_files/jquery.min.js.téléchargement"></script>
+		<link href="./print_files/css" rel="stylesheet" type="text/css">
+		
+	
+
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="./print_files/jquery.fancybox.js.téléchargement"></script>
+	<link rel="stylesheet" type="text/css" href="./print_files/jquery.fancybox.css" media="screen">
+
+	<!-- Add Button helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="./print_files/jquery.fancybox-buttons.css">
+	<script type="text/javascript" src="./print_files/jquery.fancybox-buttons.js.téléchargement"></script>
+
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+		<!-- 
+			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+		-->
+		
+		<script type="text/javascript">
+		$(document).ready(function() {
+			 $(".fancybox-button").fancybox({
+				openEffect	: 'elastic',
+				closeEffect	: 'elastic',
+				closeBtn		: true,
+				helpers		: {
+					title	: { type : 'inside' },
+					buttons	: {}
+				}
+			});
+			var date= new Date();
+			var age = Math.floor(date.getFullYear()-1993);
+			$("#agejs").html(' ' + age + ' ans');
+		});
+		</script>
+</head>
+<body>
+ 
+
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		 $(".fancybox-button").fancybox({
+			openEffect	: 'elastic',
+			closeEffect	: 'elastic',
+			closeBtn		: true,
+			helpers		: {
+				title	: { type : 'inside' },
+				buttons	: {}
+			}
+		});
+		var date= new Date();
+		var age = Math.floor(date.getFullYear()-1993);
+		var mouth = date.getMonth()+1; //+1 pour le décalage, car base 0
+		
+		if(mouth<=8){ // Si le mois n'est pas encore aout
+			age = age-1;
+			//console.log(' ' + age-1 + ' ans' + mouth)
+		}else{
+			//console.log(' ' + age + ' ans' + mouth)
+		}
+		$("#agejs").html(' ' + age + ' ans');
+	});
+</script>
+<div id="menu">
+	<div itemscope="" itemtype="http://data-vocabulary.org/Organization"> 
+		<img itemprop="photo" alt="Vivet Aurélien" src="./print_files/photo.jpg" id="avatar">
+		<p itemprop="name" id="name">Aurélien Vivet
+		</p><p id="agejs" style="display:none;font-weight: initial; text-align:center;"> </p>
+		<p></p>
+		
+		<p style="text-align:center;"><img id="email" src="./print_files/img_email.jpg"></p>
+		<p style="text-align:center;">Demo Reel 2015 : <a href="https://www.youtube.com/watch?v=n2DLxzV1tJg" style="color: blue;">Youtube</a></p>
+		<p style="text-align:center;">En construction / In progress.</p>
+		<p style="text-align:center;font-weight: bold; ">&nbsp;</p>
+		<div id="linkedin" style="text-align:center;">
+			<a href="https://fr.linkedin.com/in/aurelienvivet">
+				<img width="50px" height="50px" src="./print_files/res_logo.jpg">
+			</a>
+			<a href="https://twitter.com/3D_Aurel">
+				<img width="50px" height="50px" src="./print_files/res_twitter.jpg">
+			</a>
+		</div>
+		<p style="text-align:center;font-weight: bold; "> 🎈 <a href="https://witly.fr/portfolio/cv.php" style="color: blue;">Hire me / Embauchez moi</a> 🎈 </p>
+		<div style="text-align:center;">
+			<a href="https://www.cgtrader.com/">
+				<img src="./print_files/cgtrader_badge_square_250x250_green.png" style="width: 180px;">	
+			</a>
+		</div>
+	</div>
+</div>
+
+<div id="fenetre">
+
+	<ul id="onglets">
+		 <li style="background-color: #46b442;">
+			<a href="http://www.witly.fr/abbaye/" target="_blank" class="tabs-2">Application pour l'Abbaye de l'Épau</a>
+		</li>
+		<li>
+			<a href="https://witly.fr/portfolio/index.php" class="#tabs-1">Modélisation 3D</a>
+		</li>
+		<li>
+			<a href="https://witly.fr/portfolio/animation.php" class="#tabs-6">Animation 2D/3D</a>
+		</li>
+        <li>
+			<a href="https://witly.fr/portfolio/web.php" class="#tabs-3">Web / Applications</a>
+		</li>
+		<li>
+			<a href="https://witly.fr/portfolio/print.php" class="#tabs-4">Print / Communication</a>
+		</li>
+        <!--
+        <li>
+			<a href="montage.php" class="#tabs-5">Montages/Dessins</a>
+		</li>
+        -->
+		 <li>
+			<a href="https://witly.fr/portfolio/cv.php" class="#tabs-2">CV</a>
+		</li>
+    </ul>	
+	<div id="onglet">
+				
+		<div id="tabs-4">
+        
+	
+        
+			<div class="box youtube" style="height:250px;">
+				<iframe width="444" height="250" src="./print_files/RzO9fARWLUM.html" frameborder="0" allowfullscreen=""></iframe>	
+			</div>
+
+			<div class="box">
+				<a class="fancybox-button" href="./print_files/lebidul.png" data-fancybox-group="gallery4" title="LE BIDUL, fanzine de l’asso Les Arts Services.">
+					<img src="./print_files/lebidul.png" alt="">
+				</a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="./print_files/sweat_loup_brode.jpg" data-fancybox-group="gallery4" title="Sweat brodé, illustration loup en couleur.">
+					<img src="./print_files/sweat_loup_brode.jpg" alt="">
+				</a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="./print_files/file_de585214b6_original.jpg" data-fancybox-group="gallery4" title="Illustration loup en couleur. Parfais pour l&#39;été avec ton mojito.">
+					<img src="./print_files/file_de585214b6_original.jpg" alt="">
+				</a>
+			</div>
+            <div class="box">
+				<a class="fancybox-button" href="./print_files/course_maquette_non_officiel.jpg" data-fancybox-group="gallery4" title="Maquette de flyer pour une course de garçons et filles de café au Mans.">
+					<img src="./print_files/course_maquette_non_officiel.jpg" alt="">
+				</a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="./print_files/animation_oohee.gif" data-fancybox-group="gallery4" title="Animation pour les 10 000 inscrits sur Oohee.co">
+					<img src="./print_files/animation_oohee.gif" alt="">
+				</a>
+			</div>
+            <div class="box">
+				<a class="fancybox-button" href="./print_files/cartes.png" data-fancybox-group="gallery4" title="Maquette de carte à jouer">
+					<img src="./print_files/cartes.png" alt="">
+				</a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="./print_files/cerf.png" data-fancybox-group="gallery4" title="Design pour vêtements">
+					<img src="./print_files/cerf.png" alt="">
+				</a>
+			</div>
+            <div class="box">
+				<a class="fancybox-button" href="./print_files/panda.jpg" data-fancybox-group="gallery4" title="Design pour vêtements">
+					<img src="./print_files/panda.jpg" alt="">
+				</a>
+			</div>
+            <div class="box">
+				<a class="fancybox-button" href="./print_files/tableau_pixel_invader.png" data-fancybox-group="gallery4" title="Cadre sur le thème space invaders">
+					<img src="./print_files/tableau_pixel_invader.png" alt="">
+				</a>
+			</div>
+            
+            <div class="box">
+				<a class="fancybox-button" href="https://witly.fr/portfolio/images/lapromenade.jpg" data-fancybox-group="gallery5" title="Représentation du déplacement géologique">
+					<img src="./print_files/lapromenade.jpg" alt="">
+				</a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="https://witly.fr/portfolio/images/peugeot.jpg" data-fancybox-group="gallery5" title="">
+					<img src="./print_files/peugeot.jpg" alt="">
+				</a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="https://witly.fr/portfolio/images/photo.jpg" data-fancybox-group="gallery5" title=""><img src="./print_files/photo(1).jpg"></a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="https://witly.fr/portfolio/images/photo2.jpg" data-fancybox-group="gallery5" title=""><img src="./print_files/photo2.jpg"></a>
+			</div>
+			
+            
+            <div class="box">
+				<a class="fancybox-button" href="https://witly.fr/portfolio/images/gas_logo.png" data-fancybox-group="gallery4" title="">
+					<img src="./print_files/gas_logo.jpg" alt="">
+				</a>
+			</div>
+			<div class="box">
+					<a class="fancybox-button" href="https://witly.fr/portfolio/images/cartevisite.png" data-fancybox-group="gallery4" title="">
+						<img src="./print_files/cartevisite.jpg" alt="">
+					</a>
+			</div>
+			<div class="box">
+                <a class="fancybox-button" href="https://witly.fr/portfolio/images/aquarium1.png" data-fancybox-group="gallery4" title="">
+                    <img src="./print_files/aquarium1.jpg" alt="">
+                </a>
+			</div>	
+			<div class="box">
+                <a class="fancybox-button" href="./print_files/coach_sportif.png" data-fancybox-group="gallery4" title="">
+                    <img src="./print_files/coach_sportif.png" alt="">
+                </a>
+			</div>	
+			<div class="box">
+					<a class="fancybox-button" href="https://witly.fr/portfolio/images/flynnille.jpg" data-fancybox-group="gallery4" title=""><img src="./print_files/flynnille.jpg" alt=""></a>
+			</div>
+			<div class="box">
+					<a class="fancybox-button" href="https://witly.fr/portfolio/images/logo.jpg" data-fancybox-group="gallery4" title=""><img src="./print_files/logo.jpg" alt=""></a>
+			</div>	
+			<div class="box">
+					<a class="fancybox-button" href="https://witly.fr/portfolio/images/logos.jpg" data-fancybox-group="gallery4" title=""><img src="./print_files/logos.jpg" alt=""></a>
+			</div>	
+			<div class="box">
+				<a class="fancybox-button" href="https://witly.fr/portfolio/images/papierentete.jpg" data-fancybox-group="gallery4" title=""><img src="./print_files/papierentete.jpg" alt=""></a>
+			</div>	
+            <div class="box">
+				<a class="fancybox-button" href="https://witly.fr/portfolio/images/canette.jpg" data-fancybox-group="gallery5" title=""><img src="./print_files/canette.jpg"></a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="https://witly.fr/portfolio/images/cartevisite2.jpg" data-fancybox-group="gallery4" title="">
+					<img src="./print_files/cartevisite2.jpg" alt="">
+				</a>
+			</div>
+		</div>
+		
+	</div>
+</div>
+<script>
+  /*
+  CFInstall.check({
+  mode: "overlay"
+  });
+  */
+</script>
+
+
+	</body></html>

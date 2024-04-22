@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)https://witly.fr/portfolio/web.php -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		
+		<title>Aurélien Vivet</title>
+		<link rel="stylesheet" media="screen" href="./web_files/style.css">
+		<script src="./web_files/jquery.min.js.téléchargement"></script>
+		<link href="./web_files/css" rel="stylesheet" type="text/css">
+		
+	
+
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="./web_files/jquery.fancybox.js.téléchargement"></script>
+	<link rel="stylesheet" type="text/css" href="./web_files/jquery.fancybox.css" media="screen">
+
+	<!-- Add Button helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="./web_files/jquery.fancybox-buttons.css">
+	<script type="text/javascript" src="./web_files/jquery.fancybox-buttons.js.téléchargement"></script>
+
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+		<!-- 
+			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+		-->
+		
+		<script type="text/javascript">
+		$(document).ready(function() {
+			 $(".fancybox-button").fancybox({
+				openEffect	: 'elastic',
+				closeEffect	: 'elastic',
+				closeBtn		: true,
+				helpers		: {
+					title	: { type : 'inside' },
+					buttons	: {}
+				}
+			});
+			var date= new Date();
+			var age = Math.floor(date.getFullYear()-1993);
+			$("#agejs").html(' ' + age + ' ans');
+		});
+		</script>
+</head>
+<body>
+ 
+
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		 $(".fancybox-button").fancybox({
+			openEffect	: 'elastic',
+			closeEffect	: 'elastic',
+			closeBtn		: true,
+			helpers		: {
+				title	: { type : 'inside' },
+				buttons	: {}
+			}
+		});
+		var date= new Date();
+		var age = Math.floor(date.getFullYear()-1993);
+		var mouth = date.getMonth()+1; //+1 pour le décalage, car base 0
+		
+		if(mouth<=8){ // Si le mois n'est pas encore aout
+			age = age-1;
+			//console.log(' ' + age-1 + ' ans' + mouth)
+		}else{
+			//console.log(' ' + age + ' ans' + mouth)
+		}
+		$("#agejs").html(' ' + age + ' ans');
+	});
+</script>
+<div id="menu">
+	<div itemscope="" itemtype="http://data-vocabulary.org/Organization"> 
+		<img itemprop="photo" alt="Vivet Aurélien" src="./web_files/photo.jpg" id="avatar">
+		<p itemprop="name" id="name">Aurélien Vivet
+		</p><p id="agejs" style="display:none;font-weight: initial; text-align:center;"> </p>
+		<p></p>
+		
+		<p style="text-align:center;"><img id="email" src="./web_files/img_email.jpg"></p>
+		<p style="text-align:center;">Demo Reel 2015 : <a href="https://www.youtube.com/watch?v=n2DLxzV1tJg" style="color: blue;">Youtube</a></p>
+		<p style="text-align:center;">En construction / In progress.</p>
+		<p style="text-align:center;font-weight: bold; ">&nbsp;</p>
+		<div id="linkedin" style="text-align:center;">
+			<a href="https://fr.linkedin.com/in/aurelienvivet">
+				<img width="50px" height="50px" src="./web_files/res_logo.jpg">
+			</a>
+			<a href="https://twitter.com/3D_Aurel">
+				<img width="50px" height="50px" src="./web_files/res_twitter.jpg">
+			</a>
+		</div>
+		<p style="text-align:center;font-weight: bold; "> 🎈 <a href="https://witly.fr/portfolio/cv.php" style="color: blue;">Hire me / Embauchez moi</a> 🎈 </p>
+		<div style="text-align:center;">
+			<a href="https://www.cgtrader.com/">
+				<img src="./web_files/cgtrader_badge_square_250x250_green.png" style="width: 180px;">	
+			</a>
+		</div>
+	</div>
+</div>
+
+<div id="fenetre">
+
+	<ul id="onglets">
+		 <li style="background-color: #46b442;">
+			<a href="http://www.witly.fr/abbaye/" target="_blank" class="tabs-2">Application pour l'Abbaye de l'Épau</a>
+		</li>
+		<li>
+			<a href="https://witly.fr/portfolio/index.php" class="#tabs-1">Modélisation 3D</a>
+		</li>
+		<li>
+			<a href="https://witly.fr/portfolio/animation.php" class="#tabs-6">Animation 2D/3D</a>
+		</li>
+        <li>
+			<a href="https://witly.fr/portfolio/web.php" class="#tabs-3">Web / Applications</a>
+		</li>
+		<li>
+			<a href="https://witly.fr/portfolio/print.php" class="#tabs-4">Print / Communication</a>
+		</li>
+        <!--
+        <li>
+			<a href="montage.php" class="#tabs-5">Montages/Dessins</a>
+		</li>
+        -->
+		 <li>
+			<a href="https://witly.fr/portfolio/cv.php" class="#tabs-2">CV</a>
+		</li>
+    </ul>
+	<div id="onglet">
+		<div id="tabs-3" style="display: block;">
+		
+        <div class="box">
+			<div class="information_box_hover_purple">
+				<p class="information_box_text">Contributeur open source sur GDevelop</p>
+			</div>
+			<a href="https://gdevelop-app.com/">
+				<img src="./web_files/GD.png" alt="Contributeur open source sur GDevelop">
+			</a>
+		</div>	
+        
+		<div class="box">
+			<div class="information_box_hover_red">
+				<p class="information_box_text">Gestion de la chaine Youtube Blackzow</p>
+			</div>
+			<a href="https://www.youtube.com/channel/UCkCi1AEkGPsvDMpO5o8efJw">
+				<img src="./web_files/bz_youtube.png" alt="Chaine BlackZow Youtube">
+			</a>
+		</div>	
+		
+		<div class="box">
+			<a href="http://www.witly.fr/shopping"><img src="./web_files/site3.jpg" alt=""></a>
+		</div>			
+		
+		<div class="box">
+			<a href="https://witly.fr/portfolio/html5gamejam">
+				<img src="./web_files/site_banniere_jeu.png" alt="">
+			</a>
+		</div>			
+		
+		<div class="box">
+			<a href="http://stephv001.free.fr/BH/"><img src="./web_files/site2.jpg" alt=""></a>
+		</div>
+
+		<div class="box">
+			<a href="https://witly.fr/portfolio/web.php#"><img src="./web_files/site1.jpg" alt=""></a>
+		</div>
+
+		<div class="box">
+			<a href="http://bouh.github.io/Earth_system/">
+				<img src="./web_files/appweb.png" alt="">
+			</a>
+		</div>			
+		
+		</div>
+	</div>
+</div>
+<script>
+  /*
+  CFInstall.check({
+  mode: "overlay"
+  });
+  */
+</script>
+
+</body></html>

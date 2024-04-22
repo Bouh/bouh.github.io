@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)https://witly.fr/portfolio/animation.php -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		
+		<title>Aurélien Vivet</title>
+		<link rel="stylesheet" media="screen" href="./animation_files/style.css">
+		<script src="./animation_files/jquery.min.js.téléchargement"></script>
+		<link href="./animation_files/css" rel="stylesheet" type="text/css">
+		
+	
+
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="./animation_files/jquery.fancybox.js.téléchargement"></script>
+	<link rel="stylesheet" type="text/css" href="./animation_files/jquery.fancybox.css" media="screen">
+
+	<!-- Add Button helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="./animation_files/jquery.fancybox-buttons.css">
+	<script type="text/javascript" src="./animation_files/jquery.fancybox-buttons.js.téléchargement"></script>
+
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+		<!-- 
+			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+		-->
+		
+		<script type="text/javascript">
+		$(document).ready(function() {
+			 $(".fancybox-button").fancybox({
+				openEffect	: 'elastic',
+				closeEffect	: 'elastic',
+				closeBtn		: true,
+				helpers		: {
+					title	: { type : 'inside' },
+					buttons	: {}
+				}
+			});
+			var date= new Date();
+			var age = Math.floor(date.getFullYear()-1993);
+			$("#agejs").html(' ' + age + ' ans');
+		});
+		</script>
+</head>
+<body>
+ 
+
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		 $(".fancybox-button").fancybox({
+			openEffect	: 'elastic',
+			closeEffect	: 'elastic',
+			closeBtn		: true,
+			helpers		: {
+				title	: { type : 'inside' },
+				buttons	: {}
+			}
+		});
+		var date= new Date();
+		var age = Math.floor(date.getFullYear()-1993);
+		var mouth = date.getMonth()+1; //+1 pour le décalage, car base 0
+		
+		if(mouth<=8){ // Si le mois n'est pas encore aout
+			age = age-1;
+			//console.log(' ' + age-1 + ' ans' + mouth)
+		}else{
+			//console.log(' ' + age + ' ans' + mouth)
+		}
+		$("#agejs").html(' ' + age + ' ans');
+	});
+</script>
+<div id="menu">
+	<div itemscope="" itemtype="http://data-vocabulary.org/Organization"> 
+		<img itemprop="photo" alt="Vivet Aurélien" src="./animation_files/photo.jpg" id="avatar">
+		<p itemprop="name" id="name">Aurélien Vivet
+		</p><p id="agejs" style="display:none;font-weight: initial; text-align:center;"> </p>
+		<p></p>
+		
+		<p style="text-align:center;"><img id="email" src="./animation_files/img_email.jpg"></p>
+		<p style="text-align:center;">Demo Reel 2015 : <a href="https://www.youtube.com/watch?v=n2DLxzV1tJg" style="color: blue;">Youtube</a></p>
+		<p style="text-align:center;">En construction / In progress.</p>
+		<p style="text-align:center;font-weight: bold; ">&nbsp;</p>
+		<div id="linkedin" style="text-align:center;">
+			<a href="https://fr.linkedin.com/in/aurelienvivet">
+				<img width="50px" height="50px" src="./animation_files/res_logo.jpg">
+			</a>
+			<a href="https://twitter.com/3D_Aurel">
+				<img width="50px" height="50px" src="./animation_files/res_twitter.jpg">
+			</a>
+		</div>
+		<p style="text-align:center;font-weight: bold; "> 🎈 <a href="https://witly.fr/portfolio/cv.php" style="color: blue;">Hire me / Embauchez moi</a> 🎈 </p>
+		<div style="text-align:center;">
+			<a href="https://www.cgtrader.com/">
+				<img src="./animation_files/cgtrader_badge_square_250x250_green.png" style="width: 180px;">	
+			</a>
+		</div>
+	</div>
+</div>
+
+<div id="fenetre">
+
+	<ul id="onglets">
+		 <li style="background-color: #46b442;">
+			<a href="http://www.witly.fr/abbaye/" target="_blank" class="tabs-2">Application pour l'Abbaye de l'Épau</a>
+		</li>
+		<li>
+			<a href="https://witly.fr/portfolio/index.php" class="#tabs-1">Modélisation 3D</a>
+		</li>
+		<li>
+			<a href="https://witly.fr/portfolio/animation.php" class="#tabs-6">Animation 2D/3D</a>
+		</li>
+        <li>
+			<a href="https://witly.fr/portfolio/web.php" class="#tabs-3">Web / Applications</a>
+		</li>
+		<li>
+			<a href="https://witly.fr/portfolio/print.php" class="#tabs-4">Print / Communication</a>
+		</li>
+        <!--
+        <li>
+			<a href="montage.php" class="#tabs-5">Montages/Dessins</a>
+		</li>
+        -->
+		 <li>
+			<a href="https://witly.fr/portfolio/cv.php" class="#tabs-2">CV</a>
+		</li>
+    </ul>	
+	<div id="onglet">
+				
+		<div id="tabs-6">
+		
+			<!-- Chaine Dino 3d -->
+			<div class="box youtube" style="height:360px;">
+				<a href="https://www.youtube.com/channel/UCvU94wT-It4BkTXx7Fxg_Sg">
+					<img src="./animation_files/Dino.jpg" alt="Chaine Youtube Apprendre avec dino">
+				</a>
+			</div>
+			
+			<!-- Grey Woods 3d -->
+			<div class="box youtube" style="height:360px;">
+				<iframe width="640" height="360" src="./animation_files/omZqQ-prYOg.html" frameborder="0" allowfullscreen=""></iframe>	
+			</div>
+			<!-- Puisard bar 3d -->
+			<div class="box youtube" style="height:360px;">
+				<iframe width="640" height="360" src="./animation_files/YRatD3N2B60.html" frameborder="0" allowfullscreen=""></iframe>
+			</div>
+			<!-- Graou 3d -->
+			<div class="box youtube" style="height:360px;">
+				<iframe width="640" height="360" src="./animation_files/uCyluT-au1c.html" frameborder="0" allowfullscreen=""></iframe>	
+			</div>
+			<!-- Tambour Cénomans 3d -->
+			<div class="box youtube" style="height:360px;">
+				<iframe width="640" height="360" src="./animation_files/GE88N16QfUA.html" frameborder="0" allowfullscreen=""></iframe>	
+			</div>
+			<div class="box youtube" style="height:360px;">
+				<img src="./animation_files/soupir.gif" alt="GIF d&#39;une animation d&#39;un soupir en 3d.">
+			</div>
+			<div class="box youtube" style="height:360px;">
+				<img src="./animation_files/poing.gif" alt="GIF d&#39;une animation de coup de poing en 3d.">
+			</div>
+			<div class="box">
+				<img src="./animation_files/annimal.gif" alt="">
+			</div>
+			<div class="box">
+				<img src="./animation_files/rendu.gif" async="" alt="">
+			</div>
+		</div>
+		
+	</div>
+</div>
+<script>
+  /*
+  CFInstall.check({
+  mode: "overlay"
+  });
+  */
+</script>
+
+
+	</body></html>

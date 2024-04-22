@@ -1,12 +1,336 @@
-<!doctype html>
-<html lang="fr">
-<head>
-  <meta charset="utf-8">
-  <title>Titre de la page</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+<!DOCTYPE html>
+<!-- saved from url=(0036)https://witly.fr/portfolio/index.php -->
+<html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async="" src="./index_files/js"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-32113939-1');
+		</script>
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		
+		<title>Aurélien Vivet</title>
+		<link rel="stylesheet" media="screen" href="./index_files/style.css">
+		<script src="./index_files/jquery.min.js.téléchargement"></script>
+		<link href="./index_files/css" rel="stylesheet" type="text/css">
+		
+	
+
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="./index_files/jquery.fancybox.js.téléchargement"></script>
+	<link rel="stylesheet" type="text/css" href="./index_files/jquery.fancybox.css" media="screen">
+
+	<!-- Add Button helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="./index_files/jquery.fancybox-buttons.css">
+	<script type="text/javascript" src="./index_files/jquery.fancybox-buttons.js.téléchargement"></script>
+
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+		<!-- 
+			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+		-->
+		
+		
 </head>
 <body>
- <h1>Hello</h1>  
-</body>
-</html>
+ 
+
+
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		 $(".fancybox-button").fancybox({
+			openEffect	: 'elastic',
+			closeEffect	: 'elastic',
+			closeBtn		: true,
+			helpers		: {
+				title	: { type : 'inside' },
+				buttons	: {}
+			}
+		});
+		var date= new Date();
+		var age = Math.floor(date.getFullYear()-1993);
+		var mouth = date.getMonth()+1; //+1 pour le décalage, car base 0
+		
+		if(mouth<=8){ // Si le mois n'est pas encore aout
+			age = age-1;
+			//console.log(' ' + age-1 + ' ans' + mouth)
+		}else{
+			//console.log(' ' + age + ' ans' + mouth)
+		}
+		$("#agejs").html(' ' + age + ' ans');
+	});
+</script>
+<div id="menu">
+	<div itemscope="" itemtype="http://data-vocabulary.org/Organization"> 
+		<img itemprop="photo" alt="Vivet Aurélien" src="./index_files/photo.jpg" id="avatar">
+		<p itemprop="name" id="name">Aurélien Vivet
+		</p><p id="agejs" style="display:none;font-weight: initial; text-align:center;"> </p>
+		<p></p>
+		
+		<p style="text-align:center;"><img id="email" src="./index_files/img_email.jpg"></p>
+		<p style="text-align:center;">Demo Reel 2015 : <a href="https://www.youtube.com/watch?v=n2DLxzV1tJg" style="color: blue;">Youtube</a></p>
+		<p style="text-align:center;">En construction / In progress.</p>
+		<p style="text-align:center;font-weight: bold; ">&nbsp;</p>
+		<div id="linkedin" style="text-align:center;">
+			<a href="https://fr.linkedin.com/in/aurelienvivet">
+				<img width="50px" height="50px" src="./index_files/res_logo.jpg">
+			</a>
+			<a href="https://twitter.com/3D_Aurel">
+				<img width="50px" height="50px" src="./index_files/res_twitter.jpg">
+			</a>
+		</div>
+		<p style="text-align:center;font-weight: bold; "> 🎈 <a href="https://witly.fr/portfolio/cv.php" style="color: blue;">Hire me / Embauchez moi</a> 🎈 </p>
+		<div style="text-align:center;">
+			<a href="https://www.cgtrader.com/">
+				<img src="./index_files/cgtrader_badge_square_250x250_green.png" style="width: 180px;">	
+			</a>
+		</div>
+	</div>
+</div>
+
+<div id="fenetre">
+
+	<ul id="onglets">
+		 <li style="background-color: #46b442;">
+			<a href="http://www.witly.fr/abbaye/" target="_blank" class="tabs-2">Application pour l'Abbaye de l'Épau</a>
+		</li>
+		<li>
+			<a href="https://witly.fr/portfolio/index.php" class="#tabs-1">Modélisation 3D</a>
+		</li>
+		<li>
+			<a href="https://witly.fr/portfolio/animation.php" class="#tabs-6">Animation 2D/3D</a>
+		</li>
+        <li>
+			<a href="https://witly.fr/portfolio/web.php" class="#tabs-3">Web / Applications</a>
+		</li>
+		<li>
+			<a href="https://witly.fr/portfolio/print.php" class="#tabs-4">Print / Communication</a>
+		</li>
+        <!--
+        <li>
+			<a href="montage.php" class="#tabs-5">Montages/Dessins</a>
+		</li>
+        -->
+		 <li>
+			<a href="https://witly.fr/portfolio/cv.php" class="#tabs-2">CV</a>
+		</li>
+    </ul>    
+	<div id="onglet">
+		<div id="tabs-1" style="display: block;">
+		
+			<p>Modélisation 3D</p>
+            
+            <!-- Abbaye de l'epau Le Mans 3d video 2-->
+            <div class="box">
+				<iframe width="444" height="250" src="./index_files/zYN3UyFhYFU.html" frameborder="0" allowfullscreen=""></iframe>
+			</div>
+			
+			<!-- gisant 3d -->
+			<div class="box" alt="Gisant - Reine Bérengère de Navarre, épouse du Roi Richard Cœur de Lion. ">
+				<iframe width="450" height="250" src="./index_files/embed.html" frameborder="0" allowfullscreen="" mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+				<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+					<a href="https://sketchfab.com/models/ac6612719b954a5e82af1dd81dfaa276?utm_source=oembed&amp;utm_medium=embed&amp;utm_campaign=ac6612719b954a5e82af1dd81dfaa276" target="_blank" style="font-weight: bold; color: #1CAAD9;">Graou</a>
+					by <a href="https://sketchfab.com/Bouh1?utm_source=oembed&amp;utm_medium=embed&amp;utm_campaign=ac6612719b954a5e82af1dd81dfaa276" target="_blank" style="font-weight: bold; color: #1CAAD9;">Bouh</a>
+					on <a href="https://sketchfab.com/?utm_source=oembed&amp;utm_medium=embed&amp;utm_campaign=ac6612719b954a5e82af1dd81dfaa276" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
+				</p>
+			</div>
+			
+			<!-- gisant 3d -->
+			<div class="box" alt="Gisant - Reine Bérengère de Navarre, épouse du Roi Richard Cœur de Lion. ">
+				<iframe width="450" height="250" src="./index_files/embed(1).html" frameborder="0" allowfullscreen="" mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+				<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+					<a href="https://sketchfab.com/models/c1ac4aff8ad247199d48c29f37a8dea5?utm_source=oembed&amp;utm_medium=embed&amp;utm_campaign=c1ac4aff8ad247199d48c29f37a8dea5" target="_blank" style="font-weight: bold; color: #1CAAD9;">Graou</a>
+					by <a href="https://sketchfab.com/Bouh1?utm_source=oembed&amp;utm_medium=embed&amp;utm_campaign=c1ac4aff8ad247199d48c29f37a8dea5" target="_blank" style="font-weight: bold; color: #1CAAD9;">Bouh</a>
+					on <a href="https://sketchfab.com/?utm_source=oembed&amp;utm_medium=embed&amp;utm_campaign=c1ac4aff8ad247199d48c29f37a8dea5" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
+				</p>
+			</div>
+			
+			<!-- Abbaye de l'epau Le Mans 3d video 1-->
+			<div class="box">
+				<iframe width="444" height="250" src="./index_files/PrvkIgZZwLg.html" frameborder="0" allowfullscreen=""></iframe>
+			</div>
+            
+            <!-- Abbaye de l'epau Le Mans 3d image app-->
+			<div class="box">
+				<a class="fancybox-button" href="./index_files/aile_et_logis.jpg" data-fancybox-group="gallery1" title="Aile XVIII et logis abbatial, Abbaye de l&#39;Épau, Route de Changé, 72530 Yvré-l&#39;Évêque"><img src="./index_files/aile_et_logis.jpg" title="Aile XVIII et logis abbatial, Abbaye de l&#39;Épau, 3D , Route de Changé, 72530 Yvré-l&#39;Évêque"></a>
+			</div>
+            
+            <!-- csgo maps -->
+			<div class="box">
+				<a class="fancybox-button" href="./index_files/salon_map_csgo.jpg" data-fancybox-group="gallery1" title="Salon d&#39;une carte sur le jeux Counter Strike Global Offensive"><img src="./index_files/salon_map_csgo.jpg" title="Salon d&#39;une carte sur le jeux Counter Strike Global Offensive"></a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="./index_files/bunker_map_csgo.jpg" data-fancybox-group="gallery1" title="Bunker d&#39;une carte sur le jeux Counter Strike Global Offensive"><img src="./index_files/bunker_map_csgo.jpg" title="Bunker d&#39;une carte sur le jeux Counter Strike Global Offensive"></a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="./index_files/exterieur_map_csgo.jpg" data-fancybox-group="gallery1" title="Extérieur d&#39;une carte sur le jeux Counter Strike Global Offensive"><img src="./index_files/exterieur_map_csgo.jpg" title="Extérieur d&#39;une carte sur le jeux Counter Strike Global Offensive"></a>
+			</div>
+			
+			
+			<!-- Graou 3d -->
+			<div class="box">
+				<iframe width="450" height="250" src="./index_files/embed(2).html" frameborder="0" allowfullscreen="" mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+				<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+					<a href="https://sketchfab.com/models/c900f1860db74379bae27d3d19438379?utm_source=oembed&amp;utm_medium=embed&amp;utm_campaign=c900f1860db74379bae27d3d19438379" target="_blank" style="font-weight: bold; color: #1CAAD9;">Graou</a>
+					by <a href="https://sketchfab.com/Bouh1?utm_source=oembed&amp;utm_medium=embed&amp;utm_campaign=c900f1860db74379bae27d3d19438379" target="_blank" style="font-weight: bold; color: #1CAAD9;">Bouh</a>
+					on <a href="https://sketchfab.com/?utm_source=oembed&amp;utm_medium=embed&amp;utm_campaign=c900f1860db74379bae27d3d19438379" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
+				</p>
+			</div>
+			
+			
+			<!-- Graou 3d ENVORONEMENT -->
+			<div class="box">
+				<iframe width="450" height="250" src="./index_files/embed(3).html" frameborder="0" allowfullscreen="" mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+				<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+					<a href="https://sketchfab.com/models/686ffd0b56dc423fb029d72eb52eb77d?utm_source=oembed&amp;utm_medium=embed&amp;utm_campaign=686ffd0b56dc423fb029d72eb52eb77d" target="_blank" style="font-weight: bold; color: #1CAAD9;">Graou Environement</a>
+					by <a href="https://sketchfab.com/Bouh1?utm_source=oembed&amp;utm_medium=embed&amp;utm_campaign=686ffd0b56dc423fb029d72eb52eb77d" target="_blank" style="font-weight: bold; color: #1CAAD9;">Bouh</a>
+					on <a href="https://sketchfab.com/?utm_source=oembed&amp;utm_medium=embed&amp;utm_campaign=686ffd0b56dc423fb029d72eb52eb77d" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
+				</p>
+			</div>
+
+			<div class="box">
+				<iframe width="450" height="250" src="./index_files/embed(4).html" frameborder="0" allowfullscreen="" mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+				<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+					<a href="https://sketchfab.com/models/996c048b2451412894f0a9e36c6ceaab?utm_source=oembed&amp;utm_medium=embed&amp;utm_campaign=996c048b2451412894f0a9e36c6ceaab" target="_blank" style="font-weight: bold; color: #1CAAD9;">Canape</a>
+					by <a href="https://sketchfab.com/Bouh1?utm_source=oembed&amp;utm_medium=embed&amp;utm_campaign=996c048b2451412894f0a9e36c6ceaab" target="_blank" style="font-weight: bold; color: #1CAAD9;">Bouh1</a>
+					on <a href="https://sketchfab.com/?utm_source=oembed&amp;utm_medium=embed&amp;utm_campaign=996c048b2451412894f0a9e36c6ceaab" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
+				</p>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="./index_files/gas_3d.jpg" data-fancybox-group="gallery1" title="Gas spray 3D for Defcon France"><img src="./index_files/gas_3d.jpg"></a>
+			</div>
+			
+			<div class="box">
+				<a class="fancybox-button" href="./index_files/trio.jpg" data-fancybox-group="gallery1" title="Making of Grey Woods. Short Movie"><img src="./index_files/trio.jpg"></a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="./index_files/rendu.jpg" data-fancybox-group="gallery1" title="Living room  Grey Woods. Short Movie"><img src="./index_files/rendu.jpg"></a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="./index_files/grey_woods_ext_av.jpg" data-fancybox-group="gallery1" title="Outside Grey Woods. Short Movie"><img src="./index_files/grey_woods_ext_av.jpg"></a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="./index_files/grey_woods_canape.jpg" data-fancybox-group="gallery1" title="Couch Grey Woods. Short Movie"><img src="./index_files/grey_woods_canape.jpg"></a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="./index_files/grey_woods_porte.jpg" data-fancybox-group="gallery1" title="Door Grey Woods. Short Movie"><img src="./index_files/grey_woods_porte.jpg"></a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="./index_files/grey_woods_frigo.jpg" data-fancybox-group="gallery1" title="Fridge Grey Woods. Short Movie"><img src="./index_files/grey_woods_frigo.jpg"></a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="./index_files/puisard_bar_table.jpg" data-fancybox-group="gallery1" title="Table Puisard Bar. Short Movie"><img src="./index_files/puisard_bar_table.jpg"></a>
+			</div>
+			
+			<div class="box" style="display: none;">
+				<a class="fancybox-button" href="./index_files/Construction_valley_train.jpg" data-fancybox-group="gallery1" title="Train Construction Valley. Web Serie"><img src="./index_files/Construction_valley_train.jpg"></a>
+			</div>
+			
+			<div class="box">
+				<a class="fancybox-button" href="./index_files/graou_ext.jpg" data-fancybox-group="gallery1" title="Landscape Graou. Short Movie"><img src="./index_files/graou_ext.jpg"></a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="https://witly.fr/portfolio/images/graou.jpg" data-fancybox-group="gallery1" title="Landscape Graou. Short Movie"><img src="./index_files/graou.jpg"></a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="./index_files/graou_compo.jpg" data-fancybox-group="gallery1" title="Compositing title Graou. Short Movie"><img src="./index_files/graou_compo.jpg"></a>
+			</div>
+			
+			<div class="box">
+				<a class="fancybox-button" href="./index_files/frigo.jpg" data-fancybox-group="gallery1" title="Fridge Grey Woods. Short Movie"><img src="./index_files/frigo.jpg"></a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="./index_files/porte.jpg" data-fancybox-group="gallery1" title="Door Grey Woods. Short Movie"><img src="./index_files/porte.jpg"></a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="https://witly.fr/portfolio/images/ext.jpg" data-fancybox-group="gallery1" title="Outside Puisard Bar. Short Movie"><img src="./index_files/ext.jpg"></a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="https://witly.fr/portfolio/images/int.jpg" data-fancybox-group="gallery1" title="Inside Puisard Bar. Short Movie"><img src="./index_files/int.jpg"></a>
+			</div>
+			
+			
+			<div class="box">
+				<a class="fancybox-button" href="https://witly.fr/portfolio/images/pillier_rouge.jpg" data-fancybox-group="gallery1" title="Le Piller Rouge at Le Mans for Google Earth"><img src="./index_files/googleearthpillierrouge3d.jpg"></a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="https://witly.fr/portfolio/images/BHbureau.jpg" data-fancybox-group="gallery1" title="Office for Google Earth"><img src="./index_files/googleearthbh3d.jpg"></a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="./index_files/exterieur_lavoir.jpg" data-fancybox-group="gallery1" title=""><img src="./index_files/exterieur_lavoir.jpg"></a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="./index_files/exterieur_toiture_lavoir.jpg" data-fancybox-group="gallery1" title=""><img src="./index_files/exterieur_toiture_lavoir.jpg"></a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="https://witly.fr/portfolio/images/hache.jpg" data-fancybox-group="gallery1" title="Axe"><img src="./index_files/hache.jpg"></a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="https://witly.fr/portfolio/images/chaises.jpg" data-fancybox-group="gallery1" title="Jar and seat"><img src="./index_files/chaises.jpg"></a>
+			</div>
+			
+			
+			<div class="box">
+				<a class="fancybox-button" href="https://witly.fr/portfolio/images/coffee1.jpg" data-fancybox-group="gallery1" title="Coffee Black"><img src="./index_files/coffee1.jpg"></a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="https://witly.fr/portfolio/images/coffee2.jpg" data-fancybox-group="gallery1" title="Coffee Blue"><img src="./index_files/coffee2.jpg"></a>
+			</div>			
+			<div class="box">					
+				<a class="fancybox-button" href="./index_files/fille.jpg" data-fancybox-group="gallery1" title="Character Female"><img src="./index_files/fille.jpg"></a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="./index_files/mec.jpg" data-fancybox-group="gallery1" title="Character Male"><img src="./index_files/mec.jpg"></a>
+			</div>			
+			<div class="box">
+				<a class="fancybox-button" href="./index_files/ile.jpg" data-fancybox-group="gallery1" title="Landscape lowpoly"><img src="./index_files/ile.jpg"></a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="https://witly.fr/portfolio/images/tambour.png" data-fancybox-group="gallery1" title="Drum for Les tambours et fifres Cénomans"><img src="./index_files/tambour.png"></a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="./index_files/usb.jpg" data-fancybox-group="gallery1" title="USB"><img src="./index_files/usb.jpg"></a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="./index_files/coffee3.jpg" data-fancybox-group="gallery1" title=""><img src="./index_files/coffee3.jpg"></a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="./index_files/carton.jpg" data-fancybox-group="gallery1" title=""><img src="./index_files/carton.jpg"></a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="https://witly.fr/portfolio/images/cartoonface.jpg" data-fancybox-group="gallery1" title=""><img src="./index_files/cartoonface.jpg"></a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="./index_files/table1.jpg" data-fancybox-group="gallery1" title=""><img src="./index_files/table1.jpg"></a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="https://witly.fr/portfolio/images/toy.jpg" data-fancybox-group="gallery1" title=""><img src="./index_files/toy.jpg"></a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="https://witly.fr/portfolio/images/balle.jpg" data-fancybox-group="gallery1" title=""><img src="./index_files/balle.jpg"></a>
+			</div>
+			<div class="box">
+				<a class="fancybox-button" href="https://witly.fr/portfolio/images/cosmetique.jpg" data-fancybox-group="gallery1" title=""><img src="./index_files/cosmetique.jpg"></a>
+			</div>
+
+		</div>
+	</div>
+</div>
+<script>
+  /*
+  CFInstall.check({
+  mode: "overlay"
+  });
+  */
+</script>
+
+
+	</body></html>
